@@ -11,7 +11,6 @@ import gui.TextFields;
 public class Main {
 
 	public static void main(String[] args){
-		
 		DataBaseConnection connect = new DataBaseConnection();
 		TextFields textFields = new TextFields();
 		Labels labels = new Labels();
@@ -24,7 +23,5 @@ public class Main {
 		window.add(myp);
 		window.pack();
 		connect.connectDatabase();
-
 	}
-
 }
