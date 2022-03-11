@@ -5,7 +5,7 @@ For now it is possible to add people and animals to database. In the future you 
 ## How to use
 * To clone and run this application, you'll need JDK and postgreSQL with pgAdmin installed on your computer.
 * First you have to create your own database.
-* Then in the code in connectDatabase() method you have to enter the name of your database and your login and password.
+* Then in the code in all the methods in class DataBaseConnection you have to enter the name of your database and your login and password.
 
 ## Technologies
 * Java 15 with JDBC
