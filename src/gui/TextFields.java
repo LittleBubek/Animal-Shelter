@@ -7,6 +7,9 @@ public class TextFields {
 	JTextField animalName = new JTextField();
 	JTextField animalSpecies = new JTextField();
 	JTextField animalAge = new JTextField();
+	JTextField personName = new JTextField();
+	JTextField whichAnimal = new JTextField();
+	JTextField personAddress = new JTextField();
 	public void addTextFields(JPanelShelter panel) {
 		jps = panel;
 		
@@ -17,9 +20,6 @@ public class TextFields {
 		jps.add(animalSpecies);
 		jps.add(animalAge);
 		
-		JTextField personName = new JTextField();
-		JTextField whichAnimal = new JTextField();
-		JTextField personAddress = new JTextField();
 		personName.setBounds(375, 50, 200, 30);
 		whichAnimal.setBounds(375, 125, 200, 30);
 		personAddress.setBounds(375, 200, 200, 30);
