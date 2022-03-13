@@ -10,6 +10,10 @@ public class TextFields {
 	JTextField personName = new JTextField();
 	JTextField whichAnimal = new JTextField();
 	JTextField personAddress = new JTextField();
+	public JTextField update = new JTextField();
+	public JTextField delete = new JTextField();
+	JTextField updatedPersonID = new JTextField();
+	JTextField updatedAnimalID = new JTextField();
 	public void addTextFields(JPanelShelter panel) {
 		jps = panel;
 		
@@ -26,6 +30,16 @@ public class TextFields {
 		jps.add(personName);
 		jps.add(whichAnimal);
 		jps.add(personAddress);
+		
+		update.setBounds(900, 485, 100, 30);
+		jps.add(update);
+		updatedPersonID.setBounds(760, 540, 100, 30);
+		updatedAnimalID.setBounds(930, 540, 100, 30);
+		jps.add(updatedPersonID);
+		jps.add(updatedAnimalID);
+		
+		delete.setBounds(900, 595, 100, 30);
+		jps.add(delete);
 		
 	}
 }
