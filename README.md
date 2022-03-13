@@ -1,6 +1,12 @@
 # Animal-Shelter
-This is an animal shelter managment system connecting with PostgreSQL database. The application is still not finished.   
-For now it is possible to add people and animals to database. In the future you will be able to connect an animal to the person that wants to adopt it and update or delete the adoption in the database.
+This is an animal shelter managment system connecting with PostgreSQL database.
+
+![Animal shelter](./images/screenshot.jpg) 
+
+## Features
+* Adding animals and people than want to adopt them to the database
+* Adding new adoptions
+* Updating and deleting adoptions
 
 ## How to use
 * To clone and run this application, you'll need JDK and postgreSQL with pgAdmin installed on your computer.
